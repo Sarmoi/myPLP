@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1,
+        h2 {
+            margin-top: 20px;
+            color: #444;
+        }
+
+        .project {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        summary {
+            cursor: pointer;
+        }
+
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details>summary::before {
+            content: "+";
+            padding-right: 10px;
+            color: #555;
+            font-size: 20px;
+        }
+
+        details[open]>summary::before {
+            content: "-";
+        }
+
+        @media (min-width: 768px) {
+            .project {
+                width: 70%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my portfolio! This is the home section.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>
+        <p>
+            <strong>Welcome to my corner of the web!</strong><br>
+            I'm <b>Bethuel Sarmoi</b>, a passionate web developer with a knack for crafting
+            elegant and functional digital experiences. By day, I'm dedicated to shaping young minds as a high school
+            teacher,
+            fostering a love for learning and empowering the next generation. By night (and weekends, and any spare
+            moment
+            really), I immerse myself in the dynamic world of web development.<br>
+
+            Driven by a desire to merge creativity with technology, I specialize in front-end development, where I bring
+            designs
+            to life with clean code and intuitive user interfaces. Whether it's building responsive websites, developing
+            interactive web applications, or optimizing user experiences, I thrive on the challenge of turning ideas
+            into
+            reality.<br>
+
+            My journey into web development began as a personal passion, but it quickly evolved into a professional
+            pursuit.
+            With a foundation in education, I bring a unique perspective to my work, emphasizing clear communication,
+            user-centric design, and continuous learning. I believe that great websites not only look good but also
+            function
+            seamlessly, providing value and delight to users across the digital landscape.<br>
+
+            In addition to my technical skills, I'm a firm believer in collaboration and lifelong learning. I actively
+            seek out
+            opportunities to expand my knowledge, whether through online courses, workshops, or engaging with the
+            vibrant
+            developer community. I believe that the best solutions emerge through teamwork, creativity, and a
+            willingness to
+            embrace new technologies.<br>
+
+            When I'm not coding or grading papers, you can find me exploring the great outdoors, experimenting with new
+            recipes
+            in the kitchen, or losing myself in a good book. Life is an adventure, and I approach each project with the
+            same
+            sense of curiosity and enthusiasm.<br>
+
+            Whether you're a fellow developer, a potential employer, or simply curious about the world of web
+            development, I
+            invite you to explore my portfolio and connect with me. Let's collaborate, innovate, and create something
+            amazing
+            together.<br>
+            <em>Thank you for visiting, and I look forward to connecting with you soon!</em>
+        </p>
+        </p>
+    </section>
+
+    <section id="projects">
+        <h1>Project Details</h1>
+
+        <div class="project">
+            <details>
+                <summary>Educational Resource Management System</summary>
+                <p>
+                    Develop a web application or platform that assists teachers in managing educational resources
+                    effectively.
+                    This system could include features such as lesson planning tools, curriculum mapping, resource
+                    sharing among
+                    teachers, assessment creation and tracking, and student progress monitoring. By integrating
+                    user-friendly
+                    interfaces and customizable features, this project aims to streamline administrative tasks for
+                    teachers,
+                    allowing them to focus more on student engagement and learning outcomes.
+                </p>
+            </details>
+        </div>
+
+        <div class="project">
+            <details>
+                <summary>Interactive Learning Platform</summary>
+                <p>
+                    Create an interactive online learning platform that offers engaging educational content across
+                    various
+                    subjects and grade levels. Incorporate multimedia elements such as videos, interactive quizzes, and
+                    gamified
+                    activities to make learning more enjoyable and effective. Additionally, implement features like
+                    progress
+                    tracking, personalized recommendations, and discussion forums to facilitate student collaboration
+                    and
+                    self-paced learning. This project aims to provide a dynamic and accessible learning environment for
+                    students, complementing traditional classroom instruction and catering to diverse learning styles.
+                </p>
+            </details>
+        </div>
+
+        <div class="project">
+            <details>
+                <summary>Parent-Teacher Communication App</summary>
+                <p>
+                    Design and develop a mobile app or web-based platform that enhances communication between teachers
+                    and
+                    parents. This app could include features such as real-time messaging, event notifications,
+                    attendance
+                    tracking, academic performance updates, and appointment scheduling. By fostering transparent and
+                    timely
+                    communication, this project aims to strengthen the partnership between educators and parents,
+                    leading to
+                    better support for students' academic and social-emotional development. Additionally, incorporating
+                    user
+                    feedback mechanisms and analytics tools can help continually improve the app's functionality and
+                    user
+                    experience.
+                </p>
+            </details>
+        </div>
+    </section>
+
+</body>
+
+</html>
+
+</html>
