@@ -12,4 +12,4 @@ try:
 except Exception:
     print("general exception")
 finally:
-    print("inside oter finally block")
+    print("inside oter finally block") 
